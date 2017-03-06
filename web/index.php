@@ -6,7 +6,7 @@ use Silex\Application;
 use Absolute\SilexApi\Config;
 use Absolute\SilexApi\SilexApi;
 
-// initialise path shortcuts
+// path shortcuts
 $DS = DIRECTORY_SEPARATOR;
 $basePath = realpath(__DIR__ . $DS . '..') . $DS;
 

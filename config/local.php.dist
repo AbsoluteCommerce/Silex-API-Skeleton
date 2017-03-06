@@ -5,5 +5,10 @@ return array_merge(
     require 'default.php',
     [
         Config::DEBUG => true,
+        Config::SCHEME => 'http',
+        Config::HOSTNAME => 'localhost',
+        Config::AUTH_HTTP_BASIC => [
+            'username' => 'password',
+        ],
     ]
 );

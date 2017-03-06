@@ -2,9 +2,9 @@
 namespace Acme\WebService\Resource\Test;
 
 use Symfony\Component\HttpFoundation\Response;
+use Absolute\SilexApi\Resource\ResourceAbstract;
 use Absolute\SilexApi\Generation\Resource\Test\TestGetInterface;
 use Absolute\SilexApi\Generation\Model\Message;
-use Acme\WebService\Resource\ResourceAbstract;
 
 class TestGet extends ResourceAbstract implements TestGetInterface
 {

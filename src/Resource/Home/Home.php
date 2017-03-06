@@ -3,7 +3,7 @@ namespace Acme\WebService\Resource\Home;
 
 use Symfony\Component\HttpFoundation\Response;
 use Absolute\SilexApi\Resource\ResourceAbstract;
-use Absolute\SilexApi\Generation\Resource\Test\TestDeleteInterface;
+use Absolute\SilexApi\Generation\Resource\Home\HomeInterface;
 use Absolute\SilexApi\Generation\Model\Message;
 
 class Home extends ResourceAbstract implements HomeInterface
