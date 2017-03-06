@@ -32,7 +32,7 @@ For example an nginx configuration might look something like this:
 ```
 server {
     listen 80 default_server;
-    server_name acme-silex-api.docker;
+    server_name acme.silex.api;
     
     charset utf-8;
     root /var/www/web;
