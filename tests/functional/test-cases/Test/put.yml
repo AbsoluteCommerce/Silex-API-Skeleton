@@ -1,0 +1,6 @@
+request:
+  uri: /test
+  method: put
+response:
+  content:
+    value: "Test PUT Response"

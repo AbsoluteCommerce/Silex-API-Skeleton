@@ -1,0 +1,14 @@
+{
+    "name": "absolute/silex-api-skeleton",
+    "description": "Skeleton project for Silex API from Absolute Commerce Ltd.",
+    "type": "project",
+    "require": {
+        "absolute/silex-api": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\WebService\\": "src/",
+            "Absolute\\SilexApi\\Generation\\": "generation/"
+        }
+    }
+}

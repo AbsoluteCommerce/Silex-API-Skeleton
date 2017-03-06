@@ -1,0 +1,6 @@
+request:
+  uri: /
+  method: get
+response:
+  content:
+    value: "Welcome to the Acme WebService!"

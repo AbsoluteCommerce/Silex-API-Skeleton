@@ -1,0 +1,9 @@
+<?php
+use Absolute\SilexApi\Config;
+
+return array_merge(
+    require 'default.php',
+    [
+        Config::DEBUG => true,
+    ]
+);

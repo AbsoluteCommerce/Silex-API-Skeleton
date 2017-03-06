@@ -1,0 +1,6 @@
+request:
+  uri: /test
+  method: patch
+response:
+  content:
+    value: "Test PATCH Response"

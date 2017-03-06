@@ -1,0 +1,7 @@
+request:
+  uri: /test
+  method: get
+response:
+  content:
+    value: "Test GET Response"
+ 

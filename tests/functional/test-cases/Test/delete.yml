@@ -1,0 +1,6 @@
+request:
+  uri: /test
+  method: delete
+response:
+  content:
+    value: "Test DELETE Response"
