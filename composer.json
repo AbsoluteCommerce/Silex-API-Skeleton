@@ -1,7 +1,8 @@
 {
     "name": "absolute/silex-api-skeleton",
-    "description": "Skeleton project for Silex API from Absolute Commerce Ltd.",
+    "description": "Skeleton project for Absolute Silex API from Absolute Commerce Ltd.",
     "type": "project",
+    "version": "0.1.0",
     "require": {
         "absolute/silex-api": "^0.1.0"
     },
